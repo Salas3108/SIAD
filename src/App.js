@@ -11,6 +11,7 @@ import ManageStudents from "./Components/ManageStudents";
 import ManageCars from "./Components/ManageCars";
 import SalesManagement from "./Components/ManageSales";
 import SubscribeForm from "./Components/Subscribe";
+import AddCarForm from "./Components/AddCarForm";
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
         <Route path = "/Students" element = {<ManageStudents />} />      
         <Route path = "/Cars" element = {<ManageCars />} />  
         <Route path = "/Sales" element = {<SalesManagement />} /> 
-        <Route path = "/Subscribe" element = {<SubscribeForm/>} />                                               
+        <Route path = "/Subscribe" element = {<SubscribeForm/>} />  
+        <Route path = "/AddCar" element = {<AddCarForm/>} />                                              
       </Routes>
     </Router>
   );

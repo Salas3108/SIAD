@@ -5,7 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import CarouselComponent from "./Carousel" ;
 import Contact from "./Contact";
-import Cars from "./Cars"
+import Cars from "./Cars";
 
 const Home = () => {
   return (

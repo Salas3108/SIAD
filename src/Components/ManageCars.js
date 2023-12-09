@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Trash2, Edit , Plus,} from 'react-feather'; // Import Feather Icons
 import Sidebar from './Sidebar';
+import {Link } from 'react-router-dom';
+
 
 const ManageCars = () => {
   // Sample student data (you can fetch this data from an API)
@@ -77,7 +79,7 @@ const ManageCars = () => {
                     onClick={openAddCarForm}
                 >
                     <Plus size={16} className="mr-2 inline" />
-                    Add Car
+                    <Link to="/AddCar"> Add Car </Link>
                 </button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
